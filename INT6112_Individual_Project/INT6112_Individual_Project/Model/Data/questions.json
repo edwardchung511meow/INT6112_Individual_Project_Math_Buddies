@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "grade": 3,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "5 + 7 = ?",
+    "choices": ["10", "11", "12", "13"],
+    "correct": "12",
+    "hint": "Try counting up from 7."
+  },
+  {
+    "id": 2,
+    "grade": 3,
+    "topic": "multiplication",
+    "difficulty": "easy",
+    "question": "8 × 3 = ?",
+    "choices": ["18", "21", "24", "27"],
+    "correct": "24",
+    "hint": "Think of multiplication as repeated addition."
+  },
+  {
+    "id": 3,
+    "grade": 3,
+    "topic": "subtraction",
+    "difficulty": "easy",
+    "question": "15 - 9 = ?",
+    "choices": ["4", "5", "6", "7"],
+    "correct": "6",
+    "hint": "Subtract step by step."
+  },
+  {
+    "id": 4,
+    "grade": 3,
+    "topic": "division",
+    "difficulty": "easy",
+    "question": "12 ÷ 3 = ?",
+    "choices": ["2", "3", "4", "6"],
+    "correct": "4",
+    "hint": "Division is splitting into equal groups."
+  },
+  {
+    "id": 5,
+    "grade": 4,
+    "topic": "algebra",
+    "difficulty": "medium",
+    "question": "What is the value of x in 3x = 12?",
+    "choices": ["2", "3", "4", "6"],
+    "correct": "4",
+    "hint": "Divide both sides by 3."
+  },
+  {
+    "id": 6,
+    "grade": 3,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "9 + 6 = ?",
+    "choices": ["13", "14", "15", "16"],
+    "correct": "15",
+    "hint": "Add 10 first, then adjust."
+  },
+  {
+    "id": 7,
+    "grade": 3,
+    "topic": "subtraction",
+    "difficulty": "easy",
+    "question": "18 - 7 = ?",
+    "choices": ["9", "10", "11", "12"],
+    "correct": "11",
+    "hint": "Count backward step by step."
+  },
+  {
+    "id": 8,
+    "grade": 3,
+    "topic": "multiplication",
+    "difficulty": "easy",
+    "question": "6 × 4 = ?",
+    "choices": ["20", "22", "24", "26"],
+    "correct": "24",
+    "hint": "Multiplication is repeated addition."
+  },
+  {
+    "id": 9,
+    "grade": 3,
+    "topic": "division",
+    "difficulty": "medium",
+    "question": "48 ÷ 6 = ?",
+    "choices": ["6", "7", "8", "9"],
+    "correct": "8",
+    "hint": "Think of how many 6's fit into 48."
+  },
+  {
+    "id": 10,
+    "grade": 4,
+    "topic": "algebra",
+    "difficulty": "medium",
+    "question": "Solve: x + 9 = 21",
+    "choices": ["10", "11", "12", "13"],
+    "correct": "12",
+    "hint": "Subtract 9 from 21."
+  },
+  {
+    "id": 11,
+    "grade": 4,
+    "topic": "multiplication",
+    "difficulty": "medium",
+    "question": "7 × 8 = ?",
+    "choices": ["48", "52", "54", "56"],
+    "correct": "56",
+    "hint": "Memorize common multiplication facts."
+  },
+  {
+    "id": 12,
+    "grade": 4,
+    "topic": "division",
+    "difficulty": "medium",
+    "question": "63 ÷ 9 = ?",
+    "choices": ["5", "6", "7", "8"],
+    "correct": "7",
+    "hint": "Think of multiplication: 9 × ? = 63."
+  },
+  {
+    "id": 13,
+    "grade": 4,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 3x + 6 = 21",
+    "choices": ["3", "4", "5", "7"],
+    "correct": "5",
+    "hint": "Subtract 6 then divide by 3."
+  },
+  {
+    "id": 14,
+    "grade": 4,
+    "topic": "geometry",
+    "difficulty": "hard",
+    "question": "A rectangle has width 6 and area 48. What is the length?",
+    "choices": ["6", "7", "8", "9"],
+    "correct": "8",
+    "hint": "Area = length × width."
+  },
+  {
+    "id": 15,
+    "grade": 5,
+    "topic": "geometry",
+    "difficulty": "medium",
+    "question": "The perimeter of a square is 36. What is one side?",
+    "choices": ["6", "8", "9", "12"],
+    "correct": "9",
+    "hint": "Perimeter = 4 × side."
+  },
+  {
+    "id": 16,
+    "grade": 5,
+    "topic": "fractions",
+    "difficulty": "medium",
+    "question": "Which fraction is equivalent to 3/4?",
+    "choices": ["6/8", "9/12", "15/20", "All of the above"],
+    "correct": "All of the above",
+    "hint": "Multiply numerator & denominator by the same number."
+  },
+  {
+    "id": 17,
+    "grade": 5,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 2x - 5 = 17",
+    "choices": ["10", "11", "12", "13"],
+    "correct": "11",
+    "hint": "Add 5 then divide by 2."
+  },
+  {
+    "id": 18,
+    "grade": 5,
+    "topic": "geometry",
+    "difficulty": "hard",
+    "question": "What is the area of a triangle with base 10 and height 6?",
+    "choices": ["20", "25", "30", "35"],
+    "correct": "30",
+    "hint": "Area = 1/2 × base × height."
+  },
+  {
+    "id": 19,
+    "grade": 4,
+    "topic": "percentages",
+    "difficulty": "medium",
+    "question": "What is 25% of 80?",
+    "choices": ["10", "15", "20", "25"],
+    "correct": "20",
+    "hint": "25% = 1/4."
+  },
+  {
+    "id": 20,
+    "grade": 5,
+    "topic": "speed",
+    "difficulty": "hard",
+    "question": "If a car travels 150 km in 3 hours, what is the speed?",
+    "choices": ["40 km/h", "45 km/h", "50 km/h", "60 km/h"],
+    "correct": "50 km/h",
+    "hint": "Speed = distance ÷ time."
+  },
+  {
+    "id": 21,
+    "grade": 3,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "4 + 9 = ?",
+    "choices": ["11", "12", "13", "14"],
+    "correct": "13",
+    "hint": "Add 10 then adjust."
+  },
+  {
+    "id": 22,
+    "grade": 3,
+    "topic": "division",
+    "difficulty": "medium",
+    "question": "30 ÷ 5 = ?",
+    "choices": ["4", "5", "6", "7"],
+    "correct": "6",
+    "hint": "How many 5's fit in 30?"
+  },
+  {
+    "id": 23,
+    "grade": 4,
+    "topic": "multiplication",
+    "difficulty": "medium",
+    "question": "Find the missing number: 6 × ? = 54",
+    "choices": ["7", "8", "9", "10"],
+    "correct": "9",
+    "hint": "Think backwards from multiplication."
+  },
+  {
+    "id": 24,
+    "grade": 5,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: (x / 3) + 4 = 10",
+    "choices": ["12", "15", "18", "20"],
+    "correct": "18",
+    "hint": "Subtract first, then multiply."
+  },
+  {
+    "id": 25,
+    "grade": 5,
+    "topic": "geometry",
+    "difficulty": "hard",
+    "question": "A circle has radius 7. What is its diameter?",
+    "choices": ["7", "10", "12", "14"],
+    "correct": "14",
+    "hint": "Diameter = 2 × radius."
+  },
+  {
+    "id": 26,
+    "grade": 1,
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "How many apples are there? 🍎🍎🍎",
+    "choices": ["2", "3", "4", "5"],
+    "correct": "3",
+    "hint": "Count each apple once."
+  },
+  {
+    "id": 27,
+    "grade": 1,
+    "topic": "shapes",
+    "difficulty": "easy",
+    "question": "Which shape has 3 sides?",
+    "choices": ["Square", "Circle", "Triangle", "Rectangle"],
+    "correct": "Triangle",
+    "hint": "Think of the shape with 3 corners."
+  },
+  {
+    "id": 28,
+    "grade": 1,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "2 + 5 = ?",
+    "choices": ["6", "7", "8", "9"],
+    "correct": "7",
+    "hint": "Add 2 and 5 together."
+  },
+  {
+    "id": 29,
+    "grade": 2,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "14 + 5 = ?",
+    "choices": ["17", "18", "19", "20"],
+    "correct": "19",
+    "hint": "Add ones first, then tens."
+  },
+  {
+    "id": 30,
+    "grade": 2,
+    "topic": "subtraction",
+    "difficulty": "easy",
+    "question": "20 - 8 = ?",
+    "choices": ["10", "11", "12", "13"],
+    "correct": "12",
+    "hint": "Count backward from 20."
+  },
+  {
+    "id": 31,
+    "grade": 2,
+    "topic": "time",
+    "difficulty": "easy",
+    "question": "A clock shows 3:00. What time is it?",
+    "choices": ["Noon", "Three o’clock", "Midnight", "Five o’clock"],
+    "correct": "Three o’clock",
+    "hint": "The short hand points to the hour."
+  },
+  {
+    "id": 32,
+    "grade": 6,
+    "topic": "ratio",
+    "difficulty": "medium",
+    "question": "The ratio of cats to dogs is 3:2. If there are 12 cats, how many dogs?",
+    "choices": ["6", "7", "8", "9"],
+    "correct": "8",
+    "hint": "Scale both sides of the ratio."
+  },
+  {
+    "id": 33,
+    "grade": 6,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 4x - 7 = 21",
+    "choices": ["5", "6", "7", "8"],
+    "correct": "7",
+    "hint": "Add 7 then divide by 4."
+  },
+  {
+    "id": 34,
+    "grade": 6,
+    "topic": "geometry",
+    "difficulty": "medium",
+    "question": "What is the volume of a cube with side 5?",
+    "choices": ["25", "75", "100", "125"],
+    "correct": "125",
+    "hint": "Volume = side³."
+  }
+  ,
+  {
+    "id": 35,
+    "grade": 1,
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "Count the stars: ⭐⭐⭐⭐⭐",
+    "choices": ["3", "4", "5", "6"],
+    "correct": "5",
+    "hint": "Count carefully from left to right."
+  },
+  {
+    "id": 36,
+    "grade": 1,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "3 + 4 = ?",
+    "choices": ["5", "6", "7", "8"],
+    "correct": "7",
+    "hint": "Add 3, then count 4 more."
+  },
+  {
+    "id": 37,
+    "grade": 1,
+    "topic": "shapes",
+    "difficulty": "easy",
+    "question": "Which shape has no corners?",
+    "choices": ["Circle", "Triangle", "Square", "Rectangle"],
+    "correct": "Circle",
+    "hint": "A shape with no straight sides."
+  },
+  {
+    "id": 38,
+    "grade": 1,
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "Which number comes after 9?",
+    "choices": ["8", "9", "10", "11"],
+    "correct": "10",
+    "hint": "Think of counting numbers in order."
+  },
+  {
+    "id": 39,
+    "grade": 1,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "1 + 8 = ?",
+    "choices": ["7", "8", "9", "10"],
+    "correct": "9",
+    "hint": "Add one more than 8."
+  },
+  {
+    "id": 40,
+    "grade": 1,
+    "topic": "shapes",
+    "difficulty": "easy",
+    "question": "How many sides does a square have?",
+    "choices": ["2", "3", "4", "5"],
+    "correct": "4",
+    "hint": "All sides are equal."
+  },
+  {
+    "id": 41,
+    "grade": 1,
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "Which group has more objects?",
+    "choices": ["🍎🍎", "🍎🍎🍎🍎", "🍎", "🍎🍎🍎"],
+    "correct": "🍎🍎🍎🍎",
+    "hint": "Compare the number of apples."
+  },
+  {
+    "id": 42,
+    "grade": 2,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "23 + 15 = ?",
+    "choices": ["34", "38", "39", "40"],
+    "correct": "38",
+    "hint": "Add tens then ones."
+  },
+  {
+    "id": 43,
+    "grade": 2,
+    "topic": "subtraction",
+    "difficulty": "easy",
+    "question": "50 - 27 = ?",
+    "choices": ["23", "24", "25", "26"],
+    "correct": "23",
+    "hint": "Subtract ones then tens."
+  },
+  {
+    "id": 44,
+    "grade": 2,
+    "topic": "time",
+    "difficulty": "easy",
+    "question": "How many minutes are in an hour?",
+    "choices": ["30", "45", "60", "90"],
+    "correct": "60",
+    "hint": "Think of a clock."
+  },
+  {
+    "id": 45,
+    "grade": 2,
+    "topic": "measurement",
+    "difficulty": "easy",
+    "question": "Which is longer: 1 meter or 50 centimeters?",
+    "choices": ["1 meter", "50 centimeters", "Both same", "Cannot tell"],
+    "correct": "1 meter",
+    "hint": "1 m = 100 cm."
+  },
+  {
+    "id": 46,
+    "grade": 2,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "9 + 27 = ?",
+    "choices": ["34", "35", "36", "37"],
+    "correct": "36",
+    "hint": "Add ones first."
+  },
+  {
+    "id": 47,
+    "grade": 2,
+    "topic": "subtraction",
+    "difficulty": "easy",
+    "question": "42 - 6 = ?",
+    "choices": ["34", "35", "36", "38"],
+    "correct": "36",
+    "hint": "Subtract 6 from 42."
+  },
+  {
+    "id": 48,
+    "grade": 2,
+    "topic": "time",
+    "difficulty": "easy",
+    "question": "A clock shows 12:00. What is this called?",
+    "choices": ["Noon", "Midnight", "Afternoon", "Evening"],
+    "correct": "Noon",
+    "hint": "It is midday."
+  },
+  {
+    "id": 49,
+    "grade": 6,
+    "topic": "ratio",
+    "difficulty": "medium",
+    "question": "A recipe uses 2 cups of flour and 3 cups of water. What is the ratio of flour to water?",
+    "choices": ["2:3", "3:2", "1:3", "3:1"],
+    "correct": "2:3",
+    "hint": "Compare flour first."
+  },
+  {
+    "id": 50,
+    "grade": 6,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 5x + 10 = 35",
+    "choices": ["3", "4", "5", "7"],
+    "correct": "5",
+    "hint": "Subtract 10 then divide by 5."
+  },
+  {
+    "id": 51,
+    "grade": 6,
+    "topic": "geometry",
+    "difficulty": "medium",
+    "question": "A triangle has sides 6, 8, and 10. What type of triangle is it?",
+    "choices": ["Right triangle", "Equilateral", "Scalene", "Isosceles"],
+    "correct": "Right triangle",
+    "hint": "6² + 8² = 10²."
+  },
+  {
+    "id": 52,
+    "grade": 6,
+    "topic": "percentages",
+    "difficulty": "medium",
+    "question": "What is 30% of 90?",
+    "choices": ["20", "25", "27", "30"],
+    "correct": "27",
+    "hint": "30% = 0.3."
+  },
+  {
+    "id": 53,
+    "grade": 6,
+    "topic": "ratio",
+    "difficulty": "medium",
+    "question": "The ratio of boys to girls is 4:5. If there are 36 students, how many boys?",
+    "choices": ["16", "18", "20", "24"],
+    "correct": "16",
+    "hint": "Total ratio parts = 9."
+  },
+  {
+    "id": 54,
+    "grade": 6,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 2(x - 4) = 18",
+    "choices": ["9", "10", "11", "12"],
+    "correct": "13",
+    "hint": "Divide first, then add 4."
+  },
+  {
+    "id": 55,
+    "grade": 3,
+    "topic": "addition",
+    "difficulty": "easy",
+    "question": "12 + 18 = ?",
+    "choices": ["28", "29", "30", "31"],
+    "correct": "30",
+    "hint": "Add tens first."
+  },
+  {
+    "id": 56,
+    "grade": 4,
+    "topic": "addition",
+    "difficulty": "medium",
+    "question": "37 + 45 = ?",
+    "choices": ["72", "80", "82", "84"],
+    "correct": "82",
+    "hint": "Line up the digits."
+  },
+  {
+    "id": 57,
+    "grade": 5,
+    "topic": "addition",
+    "difficulty": "medium",
+    "question": "105 + 68 = ?",
+    "choices": ["163", "171", "173", "180"],
+    "correct": "173",
+    "hint": "Add ones, then tens, then hundreds."
+  },
+  {
+    "id": 58,
+    "grade": 3,
+    "topic": "subtraction",
+    "difficulty": "easy",
+    "question": "22 - 9 = ?",
+    "choices": ["11", "12", "13", "14"],
+    "correct": "13",
+    "hint": "Count backwards from 22."
+  },
+  {
+    "id": 59,
+    "grade": 4,
+    "topic": "subtraction",
+    "difficulty": "medium",
+    "question": "90 - 37 = ?",
+    "choices": ["51", "53", "55", "57"],
+    "correct": "53",
+    "hint": "Borrow from the tens place."
+  },
+  {
+    "id": 60,
+    "grade": 5,
+    "topic": "subtraction",
+    "difficulty": "medium",
+    "question": "130 - 48 = ?",
+    "choices": ["72", "78", "82", "84"],
+    "correct": "82",
+    "hint": "Use column subtraction."
+  },
+  {
+    "id": 61,
+    "grade": 3,
+    "topic": "multiplication",
+    "difficulty": "easy",
+    "question": "9 × 4 = ?",
+    "choices": ["32", "34", "35", "36"],
+    "correct": "36",
+    "hint": "Think 9 groups of 4."
+  },
+  {
+    "id": 62,
+    "grade": 4,
+    "topic": "multiplication",
+    "difficulty": "medium",
+    "question": "11 × 7 = ?",
+    "choices": ["66", "77", "78", "88"],
+    "correct": "77",
+    "hint": "Multiplying by 11 creates patterns."
+  },
+  {
+    "id": 63,
+    "grade": 5,
+    "topic": "multiplication",
+    "difficulty": "medium",
+    "question": "14 × 6 = ?",
+    "choices": ["64", "74", "84", "96"],
+    "correct": "84",
+    "hint": "Break 14 into 10 and 4."
+  },
+  {
+    "id": 64,
+    "grade": 3,
+    "topic": "division",
+    "difficulty": "easy",
+    "question": "20 ÷ 4 = ?",
+    "choices": ["4", "5", "6", "7"],
+    "correct": "5",
+    "hint": "How many 4s fit in 20?"
+  },
+  {
+    "id": 65,
+    "grade": 4,
+    "topic": "division",
+    "difficulty": "medium",
+    "question": "56 ÷ 7 = ?",
+    "choices": ["6", "7", "8", "9"],
+    "correct": "8",
+    "hint": "Think 7 × ? = 56."
+  },
+  {
+    "id": 66,
+    "grade": 5,
+    "topic": "division",
+    "difficulty": "medium",
+    "question": "81 ÷ 9 = ?",
+    "choices": ["7", "8", "9", "10"],
+    "correct": "9",
+    "hint": "81 is 9×9."
+  },
+  {
+    "id": 67,
+    "grade": 4,
+    "topic": "algebra",
+    "difficulty": "medium",
+    "question": "Solve: x - 5 = 9",
+    "choices": ["11", "12", "13", "14"],
+    "correct": "14",
+    "hint": "Add 5 to both sides."
+  },
+  {
+    "id": 68,
+    "grade": 5,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 7x = 42",
+    "choices": ["5", "6", "7", "8"],
+    "correct": "6",
+    "hint": "Divide both sides by 7."
+  },
+  {
+    "id": 69,
+    "grade": 6,
+    "topic": "algebra",
+    "difficulty": "hard",
+    "question": "Solve: 3(x + 4) = 36",
+    "choices": ["6", "7", "8", "9"],
+    "correct": "8",
+    "hint": "Divide first, then subtract 4."
+  },
+  {
+    "id": 70,
+    "grade": 3,
+    "topic": "geometry",
+    "difficulty": "easy",
+    "question": "How many sides does a hexagon have?",
+    "choices": ["5", "6", "7", "8"],
+    "correct": "6",
+    "hint": "Hex = six."
+  },
+  {
+    "id": 71,
+    "grade": 4,
+    "topic": "geometry",
+    "difficulty": "medium",
+    "question": "What is the perimeter of a rectangle with sides 4 and 9?",
+    "choices": ["13", "18", "22", "26"],
+    "correct": "26",
+    "hint": "Perimeter = sum of all sides."
+  },
+  {
+    "id": 72,
+    "grade": 5,
+    "topic": "geometry",
+    "difficulty": "medium",
+    "question": "Which angle is the largest?",
+    "choices": ["Acute", "Right", "Obtuse", "Straight"],
+    "correct": "Straight",
+    "hint": "Straight angle = 180°."
+  },
+  {
+    "id": 73,
+    "grade": 5,
+    "topic": "fractions",
+    "difficulty": "medium",
+    "question": "Which is greater: 2/3 or 3/5?",
+    "choices": ["2/3", "3/5", "Same", "Cannot compare"],
+    "correct": "2/3",
+    "hint": "Compare using common denominators."
+  },
+  {
+    "id": 74,
+    "grade": 4,
+    "topic": "fractions",
+    "difficulty": "easy",
+    "question": "What is 1/2 of 12?",
+    "choices": ["4", "5", "6", "8"],
+    "correct": "6",
+    "hint": "Half of 12."
+  },
+  {
+    "id": 75,
+    "grade": 6,
+    "topic": "fractions",
+    "difficulty": "medium",
+    "question": "Which fraction is the smallest?",
+    "choices": ["1/4", "1/3", "1/2", "3/4"],
+    "correct": "1/4",
+    "hint": "Compare denominator sizes."
+  },
+  {
+    "id": 76,
+    "grade": 5,
+    "topic": "percentages",
+    "difficulty": "medium",
+    "question": "What is 10% of 250?",
+    "choices": ["20", "25", "30", "35"],
+    "correct": "25",
+    "hint": "10% means divide by 10."
+  },
+  {
+    "id": 77,
+    "grade": 6,
+    "topic": "percentages",
+    "difficulty": "medium",
+    "question": "What percent is 15 out of 60?",
+    "choices": ["10%", "15%", "20%", "25%"],
+    "correct": "25%",
+    "hint": "15/60 = ?"
+  },
+  {
+    "id": 78,
+    "grade": 1,
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "Which number is greatest?",
+    "choices": ["5", "8", "12", "9"],
+    "correct": "12",
+    "hint": "Compare the size of numbers."
+  },
+  {
+    "id": 79,
+    "grade": 1,
+    "topic": "counting",
+    "difficulty": "easy",
+    "question": "Which group has fewer objects?",
+    "choices": ["🍌🍌🍌", "🍌", "🍌🍌", "🍌🍌🍌🍌"],
+    "correct": "🍌",
+    "hint": "Look for the smallest group."
+  },
+  {
+    "id": 80,
+    "grade": 1,
+    "topic": "shapes",
+    "difficulty": "easy",
+    "question": "Which shape has 4 equal sides?",
+    "choices": ["Square", "Rectangle", "Triangle", "Circle"],
+    "correct": "Square",
+    "hint": "All sides must match."
+  }
+]
